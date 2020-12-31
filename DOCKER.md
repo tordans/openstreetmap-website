@@ -99,6 +99,6 @@ Similarly, if you want to `exec` in the db container use:
 
 ### `bundle install`
 
-To update your gems, run
+Instead of running bundle directly, you need to re-run the build process:
 
-    docker-compose run --rm web bundle install
+    docker-compose build
