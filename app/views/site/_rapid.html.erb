@@ -1,0 +1,7 @@
+<script>
+  const urlHash = new URLSearchParams(window.location.hash.substring(1));
+  const urlHashMapParam = urlHash.get('map');
+  const editUrl = 'https://rapideditor.org/edit#map=' + urlHashMapParam;
+
+  window.location.href = editUrl;
+</script>
