@@ -1,4 +1,7 @@
 <script>
+  // Using the edit button, the URL for this page will be…
+  // /edit#map=18/38.89685/-76.97983
+  // /edit?editor=rapid#map=18/38.89685/-76.97983
   const urlHash = new URLSearchParams(window.location.hash.substring(1));
   const urlHashMapParam = urlHash.get('map');
   const editUrl = 'https://rapideditor.org/edit#map=' + urlHashMapParam;
