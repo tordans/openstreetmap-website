@@ -211,6 +211,9 @@ en:
     id:
       name: "iD"
       description: "iD (in-browser editor)"
+    rapid:
+      name: "Rapid"
+      description: "Rapid (in-browser editor)"
     remote:
       name: "Remote Control"
       description: "Remote Control (JOSM, Potlatch, Merkaartor)"
