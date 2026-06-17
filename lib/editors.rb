@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
 module Editors
-  ALL_EDITORS = %w[potlatch potlatch2 id remote].freeze
-  AVAILABLE_EDITORS = %w[id remote].freeze
+  # for validations
+  ALL_EDITORS = %w[potlatch potlatch2 id rapid remote].freeze
+  # for /preferences/edit
+  AVAILABLE_EDITORS = %w[id rapid remote].freeze
+  # for the main menu dropdown
   RECOMMENDED_EDITORS = %w[id remote].freeze
 end
